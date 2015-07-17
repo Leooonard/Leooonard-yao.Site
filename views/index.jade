@@ -6,12 +6,20 @@ html
 		title= "leo's site'"
 		link(rel='stylesheet', href = "/styles/index.css")
 	body
-		div#title-wrapper.title-wrapper 111
+		div#title-wrapper.title-wrapper 
+			div#UpperMask.mask
+			h1#title 'im leooonard'
+			div#LowerMask.mask
+		div(style = "text-align : center")
+			ul#button-list
+				li#problem problem
+				li#blog blog
+				li#image image
+				li#aboutme aboutme
+		div#footer.footer
+			span.divide-line
+			span &nbsp;by leooonard&nbsp;
+			span.divide-line
 		
-		ul#button-list
-			li#blog blog
-			li#problem problem
-			li#image image
-			li#aboutme aboutme
-		
-	script
+	script(src = "/scripts/jquery.js")
+	script(src = "/scripts/index.js")

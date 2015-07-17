@@ -1,5 +1,70 @@
 @import "base.less";
 
-div{
-	height : 300px;
+.title-wrapper{
+	height : 150px;
+	margin:100px;
+	position: relative;
+}
+
+.mask{
+	height: 30px;
+	background-color: white;
+}
+
+#UpperMask{
+	border-bottom: solid 1px gray;
+	position: relative;
+	width : 300px;
+	margin: 0 auto;
+	top: 30px;
+}
+
+#LowerMask{
+	border-top: solid 1px gray;
+	position: relative;
+	width: 300px;
+	margin: 0 auto;
+	top: -30px;
+	
+}
+
+h1{
+	text-align: center;
+	height : 40px;
+	width: 300px;
+	padding: 10px 0px;
+	line-height: 40px;
+	top: 200px;
+	margin: 0 auto;
+}
+
+ul{
+	display: inline-block;
+}
+
+li{
+	display: inline-block;
+	padding: 10px;
+	border: solid 1px gray;
+	margin: 0 10px;	
+}
+
+li:hover{
+	background-color: gray;
+	color: white;
+	cursor: pointer;
+}
+
+.footer{
+	margin-top: 100px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.divide-line{
+	width: 30px;
+	border-bottom: solid 1px gray;
+	display: inline-block;
+	position: relative;
+	top: -8px;
 }
