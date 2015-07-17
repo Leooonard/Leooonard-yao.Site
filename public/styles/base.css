@@ -1,0 +1,91 @@
+html,
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h4 {
+  margin: 10px;
+}
+li {
+  margin-bottom: 2px;
+}
+.pos-rel {
+  position: relative;
+}
+.pos-abs {
+  position: absolute;
+}
+.dis-none {
+  display: none;
+}
+.dis-inbl {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+.dis-bl {
+  display: block;
+}
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+.pos-left-top {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+.pos-right-top {
+  right: 0px;
+  top: 0px;
+  position: absolute;
+}
+.pos-left-bottom {
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+}
+.pos-right-bottom {
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+}
+.clear-both {
+  clear: both;
+}
+.marg-mid {
+  margin: 0 auto;
+}
+.up-arrow {
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: white white gray white;
+}
+.down-arrow {
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: white white gray white;
+  border-color: gray white white white;
+}

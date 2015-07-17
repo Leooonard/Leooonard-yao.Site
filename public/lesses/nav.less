@@ -1,0 +1,56 @@
+@import "base.less";
+
+@navbar-bgc: #00a0e9;
+@navbar-link-c: white;
+@navbar-link-reverse-c: black;
+@navbar-logo-c: white;
+@navbar-dropdown-item-border-bottom-c : lightblue;
+
+@navbar-height : 45px;
+@subnavbar-height : 80px;
+@subnavbar-padding : 10px;
+
+.logo{
+	color : @navbar-logo-c;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.navbar{
+	background-color : @navbar-bgc;
+	height : @navbar-height;
+	padding : 0 10px;
+}
+
+.navbar-item{
+	height : @navbar-height;
+	line-height: @navbar-height;
+	vertical-align: middle;
+	.dis-inbl;
+}
+
+.navbar-link{
+	color : @navbar-link-c;
+}
+
+.navbar-link-reverse{
+	color : @navbar-link-reverse-c;
+}
+
+.navbar-dropdown{
+	background-color: @navbar-bgc;
+	left : 0px;
+	.pos-abs;
+	;.navbar-dropdown-item{
+		border-bottom: solid @navbar-dropdown-item-border-bottom-c 1px;
+	}
+}
+
+.navbar-item:hover .navbar-dropdown{
+	display : block;
+}
+
+.subnavbar{
+	height : @subnavbar-height;
+	padding : @subnavbar-padding;
+}

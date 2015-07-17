@@ -1,5 +1,17 @@
-extends layout
+doctype html
 
-block content
-  h1= title
-  p Welcome to #{title}
+//-这个模板不会包含继承关系，因为他是特殊的那一个。
+html
+	head
+		title= "leo's site'"
+		link(rel='stylesheet', href = "/styles/index.css")
+	body
+		div#title-wrapper.title-wrapper 111
+		
+		ul#button-list
+			li#blog blog
+			li#problem problem
+			li#image image
+			li#aboutme aboutme
+		
+	script
